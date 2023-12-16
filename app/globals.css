@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply px-2 py-2 uppercase sm:py-3 w-[80px] sm:w-[120px] rounded-md border-2 sm:text-2xl border-light-grey font-bold transition-all ease-in-out duration-300 hover:border-purple;
+}
+
+.input-error {
+  @apply px-2 py-2 uppercase sm:py-3 w-[80px] sm:w-[120px] rounded-md border-2 sm:text-2xl border-light-red font-bold transition-all ease-in-out duration-300;
+}
+
+.error {
+  @apply text-light-red text-[12px];
+}
+
+.label {
+  @apply uppercase font-bold text-smokey-grey text-[12px] tracking-widest;
+}
+
+.label-error {
+  @apply uppercase font-bold text-light-red text-[12px] tracking-widest;
+}
