@@ -7,8 +7,6 @@
   "outputDirectory": "build",
   "public": true,
 
-  "CI": false,
-
   "git": {
     "deploymentEnabled": {
       "main": true
